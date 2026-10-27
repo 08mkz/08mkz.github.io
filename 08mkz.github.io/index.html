@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Основы кибербезопасности и простые правила защиты в сети от компании Mukhammed.">
+   <title>Cybersecurity company Mukhammed</title>
+
+   <!-- Google Fonts: Inter -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+   <!-- External Stylesheet -->
+   <link rel="stylesheet" href="style.css">
+
+   <!-- Dynamic Card Loader -->
+   <script src="app.js" defer></script>
+</head>
+
+<body>
+   <main class="container">
+      <header>
+         <div class="header-badge">
+            <span class="badge-dot"></span>
+            <span>Cybersecurity • Mukhammed</span>
+         </div>
+         <h1>Основы кибербезопасности</h1>
+         <p class="intro-text">В наши дни все проходит и утекает сеть, поэтому важно не залить свои данные в сеть</p>
+      </header>
+
+      <section class="content-card">
+         <h2>Простые правила защиты в сети:</h2>
+         <ul class="rules-list">
+            <li>Использовать сложные пароли и двухфакторную аутентификацию</li>
+            <li>Не переходить по подозрительным ссылкам</li>
+            <li>Не выкладывать в открытый доступ свои личные документы и ИИН</li>
+         </ul>
+      </section>
+
+      <!-- Dynamic Cards Section from data.json -->
+      <section class="content-card dynamic-section">
+         <div class="section-top-bar">
+            <h2>Меры и статусы защиты:</h2>
+            <span class="count-badge" id="cards-count">Загрузка...</span>
+         </div>
+         <div id="cards-container" class="cards-grid">
+            <div class="loading-state">
+               <span class="loading-spinner"></span>
+               <span>Загрузка данных...</span>
+            </div>
+         </div>
+      </section>
+
+      <aside class="info-banner">
+         <span class="banner-icon" aria-hidden="true">🏛️</span>
+         <p>Официальные нормативные акты и законы РК всегда можно проверить на ресурсе
+            <a href="https://adilet.zan.kz" target="_blank" rel="noopener noreferrer">adilet.zan.kz</a>
+         </p>
+      </aside>
+
+      <footer class="site-footer">
+         <p>© Mukhammed • Защита информации и цифровой гигиены</p>
+      </footer>
+   </main>
+</body>
+
+</html>
