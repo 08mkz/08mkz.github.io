@@ -17,7 +17,7 @@
 	
 	SELECT MAX (amount), MIN(amount) FROM cases;
 	
-	SELECT MAX(amount), MIN(amount) FROM cases;
+	SELECT MAX (amount), MIN(amount) FROM cases;
 	
 	SELECT court, SUM(amount) FROM cases GROUP BY SUM(amount) DESC;
 	
