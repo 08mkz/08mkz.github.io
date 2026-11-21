@@ -34,3 +34,8 @@ INSERT INTO employees (name, position, salary, hired, department_id) VALUES
 UPDATE employees SET salary = salary + 50000 WHERE id = 1;
 
 DELETE FROM employees WHERE id = 8;
+
+SELECT * FROM employees;
+
+SELECT AVG(salary) AS average_salary FROM employees;
+
